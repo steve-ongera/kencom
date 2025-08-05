@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+static_root/
+local_settings.py
+
+# VSCode settings (optional, but common)
+.vscode/
+
+# macOS and Linux
+.DS_Store
+Thumbs.db
+
+# Node (if using Tailwind, etc.)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Migrations (optional – keep if you want to version them)
+# **/migrations/*.py
+# **/migrations/*.pyc
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
