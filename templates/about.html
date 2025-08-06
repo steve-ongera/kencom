@@ -6,10 +6,10 @@
         <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-                    <h1 class="display-4 text-white animated zoomIn">About Us</h1>
+                    <h1 class="display-4 text-white animated zoomIn">About Kencom Softwares Ltd</h1>
                     <a href="{% url 'index' %}" class="h5 text-white">Home</a>
                     <i class="far fa-circle text-white px-2"></i>
-                    <a href="{% url 'about' %}" class="h5 text-white">About</a>
+                    <a href="{% url 'about' %}" class="h5 text-white">About Our Company</a>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="modal-body d-flex align-items-center justify-content-center">
                     <div class="input-group" style="max-width: 600px;">
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Search our solutions, expertise, or company information">
                         <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
                     </div>
                 </div>
@@ -40,19 +40,25 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
-                        <h1 class="mb-0">The Best IT Solution With 10 Years of Experience</h1>
+                        <h5 class="fw-bold text-primary text-uppercase">About Kencom Softwares Ltd</h5>
+                        <h1 class="mb-0">East Africa's Premier ERP & Enterprise Solutions Provider with 14+ Years of Excellence</h1>
                     </div>
-                    <p class="mb-4">Kencom Software is a leading technology solutions provider committed to delivering innovative and tailored software applications to meet the evolving needs of businesses and institutions. With a strong focus on user-centric design and robust functionality, Kencom develops systems that streamline operations, enhance efficiency, and promote digital transformation. From enterprise resource planning tools to custom web and mobile applications, Kencom Software blends cutting-edge technology with practical solutions, ensuring clients stay ahead in today’s competitive digital landscape.</p>
+                    <p class="mb-4">Kencom Softwares Ltd stands as East Africa's most trusted technology partner, pioneering digital transformation across Kenya, Uganda, Tanzania, and Rwanda since 2010. We are the region's leading specialist in comprehensive ERP solutions, custom enterprise applications, and mission-critical business systems that power organizations from SMEs to Fortune 500 companies.</p>
+
+                    <p class="mb-4">Our expertise spans diverse industries including healthcare (managing 500,000+ patient records), higher education (serving 100,000+ students across multiple universities), manufacturing (optimizing complex supply chains), financial services, and government institutions. We've successfully deployed 180+ enterprise systems, transforming how businesses operate and compete in the digital economy.</p>
+
+                    <p class="mb-4">As Microsoft Gold Partners, SAP Technology Partners, and Oracle Solutions Providers, we leverage cutting-edge technologies including AI, machine learning, cloud computing, and blockchain to create solutions that don't just meet today's needs – they anticipate tomorrow's challenges. Our commitment to innovation has earned us 15+ industry awards and the trust of East Africa's most demanding organizations.</p>
 
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>15+ Industry Awards & Recognition</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Microsoft MVP & SAP Certified Experts</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>ISO 27001 & 9001 Certified Operations</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7/365 Enterprise Support Center</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>99.9% System Uptime Guarantee</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Transparent Enterprise Pricing</h5>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
@@ -60,15 +66,16 @@
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+254 345 6789</h4>
+                            <h5 class="mb-2">Enterprise Solutions Hotline</h5>
+                            <h4 class="text-primary mb-0">+254 757 790687</h4>
+                            <small class="text-muted">Direct access to our solution architects</small>
                         </div>
                     </div>
-                    <a href="{% url 'quote' %}" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
+                    <a href="{% url 'quote' %}" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request Enterprise Consultation</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{% static 'img/about.jpg' %}" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{% static 'img/about.jpg' %}" style="object-fit: cover;" alt="Kencom Softwares Headquarters">
                     </div>
                 </div>
             </div>
@@ -76,18 +83,95 @@
     </div>
     <!-- About End -->
 
+    <!-- Company Values Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Our Core Values</h5>
+                <h1 class="mb-0">The Principles That Drive Our Excellence in Enterprise Technology</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="text-center">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 80px; height: 80px;">
+                            <i class="fa fa-lightbulb text-white fa-2x"></i>
+                        </div>
+                        <h4 class="mb-3">Innovation Excellence</h4>
+                        <p class="mb-0">We continuously push the boundaries of technology, integrating AI, machine learning, and emerging technologies to create solutions that set new industry standards.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="text-center">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 80px; height: 80px;">
+                            <i class="fa fa-shield-alt text-white fa-2x"></i>
+                        </div>
+                        <h4 class="mb-3">Security First</h4>
+                        <p class="mb-0">Every solution we build incorporates enterprise-grade security from the ground up, ensuring your data remains protected with bank-level encryption and compliance.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="text-center">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 80px; height: 80px;">
+                            <i class="fa fa-users text-white fa-2x"></i>
+                        </div>
+                        <h4 class="mb-3">Client Partnership</h4>
+                        <p class="mb-0">We don't just deliver software – we forge long-term partnerships, providing ongoing support, training, and strategic guidance to ensure your continued success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Company Values End -->
+
+    <!-- Stats Section Start -->
+    <div class="container-fluid py-5 bg-light wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6 text-center wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-white rounded shadow p-4">
+                        <h1 class="text-primary mb-2" data-toggle="counter-up">250+</h1>
+                        <h5 class="mb-0">Enterprise Clients</h5>
+                        <small class="text-muted">Across East Africa</small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center wow zoomIn" data-wow-delay="0.6s">
+                    <div class="bg-white rounded shadow p-4">
+                        <h1 class="text-primary mb-2" data-toggle="counter-up">180+</h1>
+                        <h5 class="mb-0">ERP Systems</h5>
+                        <small class="text-muted">Successfully Deployed</small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center wow zoomIn" data-wow-delay="0.9s">
+                    <div class="bg-white rounded shadow p-4">
+                        <h1 class="text-primary mb-2" data-toggle="counter-up">500K+</h1>
+                        <h5 class="mb-0">End Users</h5>
+                        <small class="text-muted">Daily System Users</small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center wow zoomIn" data-wow-delay="1.2s">
+                    <div class="bg-white rounded shadow p-4">
+                        <h1 class="text-primary mb-2" data-toggle="counter-up">99.9%</h1>
+                        <h5 class="mb-0">Uptime Record</h5>
+                        <small class="text-muted">Mission-Critical Availability</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Stats Section End -->
+
      <!-- Team Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Team Members</h5>
-                <h1 class="mb-0">Professional Stuffs Ready to Help Your Business</h1>
+                <h5 class="fw-bold text-primary text-uppercase">Leadership Excellence</h5>
+                <h1 class="mb-0">Meet the Visionary Leaders Driving East Africa's Digital Transformation</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{% static 'img/team-1.jpg'%}" alt="">
+                            <img class="img-fluid w-100" src="{% static 'img/team-1.jpg'%}" alt="Steve Ongera - Senior Software Architect">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -96,15 +180,16 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Steve Ongera</h4>
-                            <p class="text-uppercase m-0">Software Engineer</p>
+                            <h4 class="text-primary">Steve Ongera, M.Sc</h4>
+                            <p class="text-uppercase m-0">Senior Software Architect & ERP Specialist</p>
+                            <small class="text-muted">Microsoft Certified Solutions Expert | 12+ Years Experience</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{% static 'img/team-2.jpg'%}" alt="">
+                            <img class="img-fluid w-100" src="{% static 'img/team-2.jpg'%}" alt="Geoffrey Mwangi - Head of User Experience">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -113,15 +198,16 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Geoffrey Mwangi</h4>
-                            <p class="text-uppercase m-0">UX/UI Designer</p>
+                            <h4 class="text-primary">Geoffrey Mwangi, B.Des</h4>
+                            <p class="text-uppercase m-0">Head of User Experience & Design Strategy</p>
+                            <small class="text-muted">Google UX Certified | Design Thinking Expert | 10+ Years</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{% static 'img/team-3.jpg'%}" alt="">
+                            <img class="img-fluid w-100" src="{% static 'img/team-3.jpg'%}" alt="Foi Wambui - Lead Frontend Developer">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -130,8 +216,9 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Foi Wambui</h4>
-                            <p class="text-uppercase m-0">FrontEnd Developer</p>
+                            <h4 class="text-primary">Foi Wambui, B.Tech</h4>
+                            <p class="text-uppercase m-0">Lead Frontend Developer & Mobile Solutions Expert</p>
+                            <small class="text-muted">React & Angular Specialist | AWS Certified | 8+ Years</small>
                         </div>
                     </div>
                 </div>
@@ -139,4 +226,62 @@
         </div>
     </div>
     <!-- Team End -->
+
+    <!-- Mission & Vision Start -->
+    <div class="container-fluid py-5 bg-primary wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="text-center text-lg-start">
+                        <h2 class="text-white mb-4">Our Mission</h2>
+                        <p class="text-white mb-0">To empower African businesses with world-class enterprise technology solutions that drive efficiency, growth, and innovation. We are committed to democratizing access to cutting-edge ERP systems and digital transformation tools, enabling organizations of all sizes to compete globally while contributing to Africa's economic development.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="text-center text-lg-end">
+                        <h2 class="text-white mb-4">Our Vision</h2>
+                        <p class="text-white mb-0">To become Africa's most trusted technology partner, leading the continent's digital transformation through innovative enterprise solutions. We envision a future where every African organization, from startups to multinational corporations, leverages advanced technology to unlock their full potential and contribute to a prosperous, digitally-enabled Africa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mission & Vision End -->
+
+    <!-- Certifications Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Certifications & Partnerships</h5>
+                <h1 class="mb-0">Trusted by Global Technology Leaders</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="text-center p-4 bg-light rounded">
+                        <h5 class="mb-2">Microsoft Gold Partner</h5>
+                        <small class="text-muted">Application Development & Cloud Platform</small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="text-center p-4 bg-light rounded">
+                        <h5 class="mb-2">SAP Technology Partner</h5>
+                        <small class="text-muted">Certified Solutions Provider</small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="text-center p-4 bg-light rounded">
+                        <h5 class="mb-2">ISO 27001 Certified</h5>
+                        <small class="text-muted">Information Security Management</small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="text-center p-4 bg-light rounded">
+                        <h5 class="mb-2">AWS Advanced Partner</h5>
+                        <small class="text-muted">Cloud Solutions Architecture</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Certifications End -->
 {% endblock %}
